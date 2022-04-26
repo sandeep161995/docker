@@ -121,9 +121,8 @@ docker run -d --name test_ubuntu -p 6379:6379 ubuntu:jammy
 
 
 22. Check how many ubuntu containers are running and stopped
-running- ubuntu:jammy
-running and non-running : ubuntu:jammy
-                          ubuntu:rolling
+docker ps
+docker ps -a
 
 
 23. Is the tomcat container running? If no, start one.
